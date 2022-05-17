@@ -1,0 +1,14 @@
+[package]
+name = "bdf-rs"
+version = "0.1.0"
+edition = "2021"
+authors = ["markovwang"]
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = {version = "2.9.3", features = ["yaml"]}
+byteorder = "1.4.3"
+nom = "7.0.0"
+
+[dev-dependencies]
+plotly = "0.6.0"
